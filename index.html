@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Undangan Pernikahan Dika & Sinta</title>
+<meta property="og:title" content="Pernikahan Dika & Sinta">
+<meta property="og:description" content="Sabtu, 18 Desember 2027">
+<link rel="icon" type="image/webp" href="https://cdn.jsdelivr.net/gh/zakkimusyarrof/img-byzkk@main/logo_20260906_093655_0000.jpg">
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/zakkimusyarrof/img-byzkk@main/logo_20260906_093655_0000.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Special+Elite&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--cork:#b08457;--ink:#2a2118;--w:#fff;--tape:rgba(255,226,140,.7);--k:"Kalam","Segoe Print",cursive;--t:"Special Elite","Courier New",monospace;--b:"Nunito",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font:400 17px/1.6 var(--b);color:var(--ink);background:var(--cork) radial-gradient(rgba(0,0,0,.14) 1px,transparent 1.5px) 0 0/7px 7px;background-attachment:fixed}
+body.lock{overflow:hidden}
+img{display:block;max-width:100%}
+:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.lbl{display:inline-block;font:400 clamp(1.1rem,4vw,1.6rem) var(--t);background:#1b1b1b;color:#f5f5f5;padding:.3rem .9rem;letter-spacing:.08em;box-shadow:2px 3px 0 rgba(0,0,0,.3);rotate:-1.5deg;margin-bottom:1.2rem}
+.btn{display:inline-block;border:0;background:#1b1b1b;color:#f5f5f5;padding:.6rem 1.3rem;font:400 .95rem var(--t);cursor:pointer;text-decoration:none;box-shadow:3px 3px 0 rgba(0,0,0,.35);letter-spacing:.04em;transition:transform .1s}
+.btn:active{transform:translate(2px,2px)}
+.btn.w{background:#fff;color:var(--ink)}
+.row{display:flex;flex-wrap:wrap;gap:.7rem}
+.paper{position:relative;background:#fff;padding:1.3rem 1.4rem;box-shadow:0 5px 14px rgba(0,0,0,.3)}
+.paper::before{content:"";position:absolute;top:-11px;left:50%;width:84px;height:24px;margin-left:-42px;background:var(--tape);rotate:-3deg}
+
+/* Polaroid */
+.pol{position:relative;width:clamp(150px,40vw,200px);perspective:900px}
+.pol .in{position:relative;transform-style:preserve-3d;transition:transform .7s}
+.pol.flip .in{transform:rotateY(180deg)}
+.pol .fr,.pol .bk{background:#fff;box-shadow:0 6px 16px rgba(0,0,0,.35);backface-visibility:hidden}
+.pol .fr{padding:9px 9px 38px}
+.pol img{width:100%;aspect-ratio:1;object-fit:cover;pointer-events:none;user-select:none}
+.pol .cap{position:absolute;bottom:7px;left:0;right:0;text-align:center;font:700 1rem var(--k)}
+.pol .bk{position:absolute;inset:0;transform:rotateY(180deg);padding:1rem;display:grid;align-content:center;gap:.5rem;font:400 .95rem/1.3 var(--k);text-align:center;background:#fffdf0}
+.pol .bk .btn{font-size:.75rem;padding:.35rem .7rem}
+.pol.s{cursor:pointer}
+.pol::before{content:"";position:absolute;top:-10px;left:50%;width:64px;height:20px;margin-left:-32px;background:var(--tape);rotate:2deg;z-index:2}
+
+/* Cover */
+#cover{position:fixed;inset:0;z-index:100;background:var(--cork) radial-gradient(rgba(0,0,0,.14) 1px,transparent 1.5px) 0 0/7px 7px;display:grid;place-content:center;justify-items:center;gap:1.2rem;padding:1.4rem;text-align:center;transition:opacity .8s .3s}
+#cover.out{opacity:0;pointer-events:none}
+#cover .pol{width:min(76vw,330px);rotate:-3deg}
+#cover .dev img{filter:brightness(2.4) contrast(.4) saturate(0) blur(5px);transition:filter 5.5s ease-out}
+#cover .dev.go img{filter:none}
+#cover .pol .cap{font-size:1.5rem;bottom:8px}
+#cover .pol .fr{padding-bottom:50px}
+#cover p{font:400 1.1rem var(--t);color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+#flash{position:fixed;inset:0;background:#fff;z-index:120;opacity:0;pointer-events:none}
+#flash.on{animation:fl .7s ease-out}
+@keyframes fl{0%{opacity:1}100%{opacity:0}}
+
+main{max-width:900px;margin:0 auto;padding:0 5%}
+section{padding:clamp(2.6rem,7vw,4.5rem) 0}
+.hero{text-align:center;padding-top:3rem}
+.hero .pol{width:min(82vw,360px);margin:1rem auto 1.6rem;rotate:2deg}
+.hero .xf{position:relative;aspect-ratio:1;overflow:hidden;background:#222}
+.hero .xf img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.6s}
+.hero .xf img.on{opacity:1}
+.hero .pol .fr{padding-bottom:58px}
+.hero .pol .cap{font-size:1.5rem;bottom:12px}
+.cd{display:flex;gap:.7rem;justify-content:center;flex-wrap:wrap;margin-top:1.4rem}
+.cd div{background:#fff;padding:.5rem .9rem;box-shadow:0 3px 8px rgba(0,0,0,.3);min-width:68px;text-align:center}
+.cd div:nth-child(odd){rotate:-2deg}.cd div:nth-child(even){rotate:2deg}
+.cd b{display:block;font:400 1.7rem/1 var(--t)}
+.cd small{font:.75rem var(--b)}
+.dt{font:700 1.3rem var(--k);color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.ayat{max-width:32em;margin:0 auto;font:400 1.15rem/1.45 var(--k);rotate:-1deg}
+.ayat cite{display:block;margin-top:.5rem;font:400 .85rem var(--t);font-style:normal}
+.duo{display:flex;flex-wrap:wrap;gap:2.4rem;justify-content:center}
+.duo>div{text-align:center}
+.duo .pol{width:min(72vw,250px)}
+.duo h3{font:700 1.5rem var(--k);color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.5);margin-top:.8rem}
+.duo p{font-size:.92rem;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,.5)}
+.notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.6rem}
+.notes .paper{font:400 1.1rem/1.4 var(--k)}
+.notes .paper:nth-child(odd){rotate:-1.6deg}.notes .paper:nth-child(even){rotate:1.4deg}
+.notes b{display:block;font:400 .85rem var(--t);margin-bottom:.3rem}
+.ev h3{font:700 1.6rem var(--k);margin-bottom:.2rem}
+.ev p{margin:.1rem 0}
+.ev .row{margin-top:.9rem}
+.evs{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.8rem}
+.evs .paper:nth-child(odd){rotate:1deg}.evs .paper:nth-child(even){rotate:-1deg}
+
+/* Meja foto */
+.tools{display:flex;gap:.7rem;margin-bottom:1rem;flex-wrap:wrap;align-items:center}
+.tools span{color:#fff;font:400 1rem var(--k);text-shadow:0 1px 3px rgba(0,0,0,.5)}
+#meja{position:relative;min-height:640px;border:3px dashed rgba(255,255,255,.55);border-radius:12px;touch-action:pan-y;overflow:hidden}
+#meja .pol{position:absolute;cursor:grab;touch-action:none;user-select:none}
+#meja .pol.anim{transition:left .6s,top .6s,rotate .6s}
+#meja .pol.drag{cursor:grabbing}
+#meja .pol.drag .in{box-shadow:0 14px 26px rgba(0,0,0,.4)}
+#lb{position:fixed;inset:0;z-index:150;background:rgba(20,14,8,.95);display:none;place-items:center}
+#lb.on{display:grid}
+#lb img{max-height:86vh;max-width:94vw;border:10px solid #fff;border-bottom-width:40px}
+#lb button{position:absolute;background:none;border:0;color:#fff;font-size:2.4rem;padding:1rem;cursor:pointer}
+#lb .x{top:0;right:0}#lb .p{left:0}#lb .n{right:0}
+
+#cards{display:none;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:1.6rem}
+#cards.on{display:grid}
+.gc b{display:block;font:700 1.3rem var(--k)}
+.gc .no{font:400 1.2rem var(--t)}
+.gc p{margin-bottom:.8rem}
+form{display:grid;gap:.9rem}
+label span,.lb2{display:block;font:400 .85rem var(--t);margin-bottom:.25rem}
+input[type=text],select,textarea{width:100%;font:400 1.05rem var(--k);padding:.5rem .7rem;border:2px solid var(--ink);background:#fffdf5;border-radius:0}
+textarea{min-height:100px;resize:vertical}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:.9rem}
+.clr{display:flex;gap:.7rem}
+.clr label{position:relative;cursor:pointer}
+.clr input{position:absolute;opacity:0}
+.clr i{display:block;width:34px;height:34px;border:2px solid var(--ink);box-shadow:2px 2px 0 rgba(0,0,0,.3)}
+.clr input:checked+i{outline:3px solid #fff;outline-offset:2px}
+.clr input:focus-visible+i{outline:3px solid #fff}
+#list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.6rem;margin-top:2.4rem}
+#list article{position:relative;padding:1.2rem 1.1rem 1rem;box-shadow:0 5px 12px rgba(0,0,0,.3);font:400 1.1rem/1.35 var(--k)}
+#list article:nth-child(odd){rotate:-1.6deg}#list article:nth-child(even){rotate:1.4deg}
+#list article::before{content:"";position:absolute;top:-8px;left:50%;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:#c0392b;box-shadow:0 2px 3px rgba(0,0,0,.4)}
+#list b{display:block;font:700 1.1rem var(--k)}
+#list small{display:block;font:.75rem var(--t);margin-bottom:.3rem;opacity:.7}
+#list .btn{margin-top:.6rem;font-size:.72rem;padding:.35rem .7rem}
+.empty{color:#fff;font:400 1.1rem var(--k);text-shadow:0 1px 3px rgba(0,0,0,.5)}
+.end{text-align:center}
+.end .paper{max-width:560px;margin:1rem auto}
+.end .paper h2{font:700 2.4rem var(--k);margin-bottom:.6rem}
+footer{text-align:center;color:#fff;font:.85rem var(--t);padding:1rem 1rem 3rem;text-shadow:0 1px 2px rgba(0,0,0,.5)}
+#sw{position:fixed;top:12px;right:12px;z-index:70;background:#1b1b1b;color:#f5f5f5;border:0;padding:.35rem .9rem;font:400 .8rem var(--t);cursor:pointer;box-shadow:2px 2px 0 rgba(0,0,0,.35);display:none}
+#toast{position:fixed;left:50%;bottom:1.4rem;translate:-50% 16px;background:#1b1b1b;color:#f5f5f5;padding:.65rem 1.2rem;font:400 .9rem var(--t);opacity:0;pointer-events:none;transition:.3s;z-index:160;max-width:90vw;text-align:center}
+#toast.on{opacity:1;translate:-50% 0}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}#cover .dev img{filter:none}}
+</style>
+</head>
+<body class="lock">
+<div id="cover"></div>
+<div id="flash"></div>
+<button id="sw" role="switch" aria-checked="false">Musik off</button>
+<main id="app"></main>
+<footer id="foot"></footer>
+<div id="lb" role="dialog" aria-label="Foto"><button class="x" aria-label="Tutup">×</button><button class="p" aria-label="Sebelumnya">‹</button><img alt=""><button class="n" aria-label="Berikutnya">›</button></div>
+<div id="toast" role="status"></div>
+<audio id="aud" loop></audio>
+
+<script>
+/* =====================================================================
+   DATA UNDANGAN — ubah bagian ini saja untuk setiap klien
+   ===================================================================== */
+const P = (s, w, h) => `https://picsum.photos/seed/${s}/${w}/${h}`; // placeholder: GANTI dengan URL foto asli
+const C = {
+  id: "dika-sinta",                        // kunci unik penyimpanan ucapan
+  musik: "https://cdn.jsdelivr.net/gh/zakkimusyarrof/musik-undangandigital@main/bermuara.MP3",                               // GANTI: URL file .mp3 (kosong = saklar tampil, belum ada suara)
+  wa: "6281200000000",                     // GANTI: nomor WhatsApp penerima RSVP (format 62...)
+  studio: "Nama Studio Anda",
+  hero: ["https://cdn.jsdelivr.net/gh/zakkimusyarrof/img-src@main/pp3.webp", "https://cdn.jsdelivr.net/gh/zakkimusyarrof/img-src@main/pp4.webp", "https://cdn.jsdelivr.net/gh/zakkimusyarrof/img-src@main/pp5.webp"],   // foto pertama juga dipakai di cover
+  ayat: { teks: "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang.", sumber: "QS Ar-Rum: 21" },
+  pria:   { nama: "Dika Aditama", anak: "Putra pertama dari Bapak Agus & Ibu Lestari", ig: "https://instagram.com/", foto: "https://cdn.jsdelivr.net/gh/zakkimusyarrof/img-src@main/pp1.webp" },
+  wanita: { nama: "Sinta Maharani", anak: "Putri kedua dari Bapak Teddy & Ibu Yuli", ig: "https://instagram.com/", foto: "https://cdn.jsdelivr.net/gh/zakkimusyarrof/img-src@main/pp3.webp" },
+  cerita: [
+    ["Foto pertama", "Difoto bersama tanpa sengaja saat wisuda sahabat. Keduanya baru sadar setelah fotonya dibagikan."],
+    ["Foto yang paling sering", "Selfie di setiap kota yang mereka kunjungi, dan tidak ada satu pun yang fokus."],
+    ["Foto lamaran", "Satu bingkai besar, banyak orang tersenyum, dan Sinta menjawab sebelum kamera siap."]
+  ],
+  acara: [
+    { judul: "Akad Nikah", mulai: "2027-12-18T09:00:00", selesai: "2027-12-18T11:00:00", jam: "09.00 WIB", tempat: "Masjid Baiturrahman, Jl. Pandanaran No. 126, Semarang", peta: "https://maps.google.com/" },
+    { judul: "Resepsi", mulai: "2027-12-18T12:00:00", selesai: "2027-12-18T15:00:00", jam: "12.00 WIB", tempat: "Gedung Wisma Perdamaian, Jl. Imam Bonjol No. 1, Semarang", peta: "https://maps.google.com/" }
+  ],
+  // satu polaroid per foto: f = URL, k = tulisan tangan di depan, n = catatan di belakang (ketuk polaroid untuk membaliknya)
+  galeri: [
+    { f: P("pl-g1", 700, 700), k: "Hari pertama", n: "Pantai yang selalu mereka bicarakan." },
+    { f: P("pl-g2", 700, 700), k: "Kopi pagi", n: "Kebiasaan sebelum bekerja." },
+    { f: P("pl-g3", 700, 700), k: "Jalan-jalan", n: "Entah ini kota yang keberapa." },
+    { f: P("pl-g4", 700, 700), k: "Bersama keluarga", n: "Foto yang paling ditunggu ibu." },
+    { f: P("pl-g5", 700, 700), k: "Lamaran", n: "Sinta menjawab sebelum diminta." },
+    { f: P("pl-g6", 700, 700), k: "Sampai jumpa", n: "Tunggu kami di hari bahagia." }
+  ],
+  hadiah: [ { bank: "DANA", no: "0812-0000-0001", nama: "Dika Aditama" }, { bank: "DANA", no: "0812-0000-0002", nama: "Sinta Maharani" } ],
+  penutup: "Merupakan kebahagiaan dan kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu."
+};
+
+/* =====================================================================
+   KODE TEMA (tidak perlu diubah)
+   ===================================================================== */
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const A = C.pria.nama.split(" ")[0], B = C.wanita.nama.split(" ")[0];
+const tamu = new URLSearchParams(location.search).get("to") || "Tamu Undangan";
+const E0 = C.acara[0];
+const tglTeks = new Date(E0.mulai).toLocaleDateString("id-ID", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+let tt; const toast = m => { const e = $("#toast"); e.textContent = m; e.classList.add("on"); clearTimeout(tt); tt = setTimeout(() => e.classList.remove("on"), 2300); };
+const salin = (txt, pesan) => (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).catch(() => {
+  const t = document.createElement("textarea"); t.value = txt; document.body.appendChild(t); t.select(); document.execCommand("copy"); t.remove();
+}).then(() => toast(pesan));
+const store = { get: k => { try { return localStorage.getItem(k); } catch (e) { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} } };
+const loadJ = (k, def) => { try { return JSON.parse(store.get(k)) || def; } catch (e) { return def; } };
+let on = false, opened = false, lbCur = 0, lx = 0, zTop = 10;
+const KEY = "kartu-" + C.id;
+const WARNA = { kuning: "#fff1a8", merah: "#ffc7d4", biru: "#c6e3ff", hijau: "#cdf0d3" };
+
+/* Cover: foto yang berkembang */
+$("#cover").innerHTML = `<p>Untuk ${esc(tamu)}</p><div class="pol dev" id="dev"><div class="in"><div class="fr"><img src="${C.hero[0]}" alt=""><div class="cap">${A} &amp; ${B}</div></div></div></div><button class="btn" id="open">Buka album</button>`;
+setTimeout(() => $("#dev").classList.add("go"), 500);
+
+/* Polaroid statis (bisa dibalik) */
+const polS = (foto, cap, belakang) => `<div class="pol s rv" tabindex="0" role="button" aria-label="Balik foto ${cap}"><div class="in"><div class="fr"><img src="${foto}" alt="${cap}" loading="lazy"><div class="cap">${cap}</div></div><div class="bk">${belakang}</div></div></div>`;
+
+$("#app").innerHTML = `
+<section class="hero"><span class="lbl">ALBUM PERNIKAHAN</span>
+  <div class="pol"><div class="in"><div class="fr"><div class="xf">${C.hero.map((s, i) => `<img src="${s}" alt="" ${i ? 'loading="lazy"' : ""}>`).join("")}</div><div class="cap">${A} &amp; ${B}</div></div></div></div>
+  <p class="dt">${tglTeks}</p>
+  <div class="cd" id="cd"><div><b id="d">0</b><small>hari</small></div><div><b id="h">0</b><small>jam</small></div><div><b id="m">0</b><small>menit</small></div><div><b id="s">0</b><small>detik</small></div></div></section>
+<section class="rv"><div class="paper ayat">${C.ayat.teks}<cite>${C.ayat.sumber}</cite></div></section>
+<section><span class="lbl rv">DUA YANG DIFOTO</span><div class="duo">${[C.pria, C.wanita].map(p => `<div>${polS(p.foto, p.nama.split(" ")[0], `${p.anak}<br><a class="btn" href="${p.ig}" target="_blank" rel="noopener">Instagram</a>`)}<h3>${p.nama}</h3><p>Ketuk foto untuk membaliknya</p></div>`).join("")}</div></section>
+<section><span class="lbl rv">CATATAN DI BALIK FOTO</span><div class="notes">${C.cerita.map(c => `<div class="paper rv"><b>${c[0]}</b>${c[1]}</div>`).join("")}</div></section>
+<section><span class="lbl rv">JADWAL</span><div class="evs">${C.acara.map((e, i) => `<div class="paper ev rv"><h3>${e.judul}</h3><p><b>${tglTeks}</b></p><p>${e.jam}</p><p>${e.tempat}</p><div class="row"><a class="btn" href="${e.peta}" target="_blank" rel="noopener">Buka peta</a><button class="btn w" data-ics="${i}">Simpan ke kalender</button></div></div>`).join("")}</div></section>
+<section><span class="lbl rv">MEJA FOTO</span><div class="tools"><button class="btn" id="rapi">Rapikan</button><button class="btn w" id="acak">Acak lagi</button><span>Seret foto sesukamu, ketuk untuk membalik.</span></div><div id="meja"></div></section>
+<section><span class="lbl rv">TANDA KASIH</span><div class="paper rv"><p style="font:400 1.15rem var(--k)">Doa Anda sudah menjadi hadiah terbaik. Bila ingin berbagi tanda kasih, silakan lewat e-wallet berikut.</p><br><button class="btn" id="gbtn" aria-expanded="false">Lihat nomor e-wallet</button></div>
+  <div id="cards">${C.hadiah.map(g => `<div class="paper gc"><b>${g.bank}</b><p class="no">${g.no}</p><p>a.n. ${g.nama}</p><button class="btn w" data-no="${g.no}" data-b="${g.bank}">Salin nomor</button></div>`).join("")}</div></section>
+<section><span class="lbl rv">TULIS KARTU UCAPAN</span><div class="paper rv"><form id="f"><label><span>Nama</span><input type="text" name="nama" required maxlength="60" autocomplete="name" value="${tamu === "Tamu Undangan" ? "" : esc(tamu)}"></label>
+  <div class="two"><label><span>Kehadiran</span><select name="hadir"><option>Hadir</option><option>Belum pasti</option><option>Tidak bisa hadir</option></select></label><label><span>Jumlah tamu</span><select name="jumlah"><option>1</option><option>2</option><option>3</option><option>4</option></select></label></div>
+  <div><span class="lb2">Warna kartu</span><div class="clr">${Object.keys(WARNA).map((k, i) => `<label><input type="radio" name="warna" value="${k}" ${i ? "" : "checked"} aria-label="${k}"><i style="background:${WARNA[k]}"></i></label>`).join("")}</div></div>
+  <label><span>Ucapan dan doa</span><textarea name="pesan" required maxlength="300"></textarea></label>
+  <div class="row"><button class="btn" type="submit">Tempel di papan</button><button class="btn w" type="button" id="wa">Kirim lewat WhatsApp</button></div></form></div><div id="list"></div></section>
+<section class="end"><div class="paper rv"><h2>Terima kasih</h2><p>${C.penutup}</p><p style="font:700 1.4rem var(--k);margin-top:.8rem">${A} &amp; ${B}</p></div></section>`;
+$("#foot").textContent = `Undangan digital oleh ${C.studio}`;
+
+/* Foto statis: ketuk untuk membalik */
+document.querySelectorAll(".pol.s").forEach(p => {
+  const flip = () => p.classList.toggle("flip");
+  p.onclick = e => { if (!e.target.closest("a")) flip(); };
+  p.onkeydown = e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); flip(); } };
+});
+
+/* Musik + buka album (lampu kilat) */
+const aud = $("#aud"), sw = $("#sw");
+if (C.musik) aud.src = C.musik;
+const musik = v => {
+  on = v; sw.setAttribute("aria-checked", v); sw.textContent = v ? "Musik on" : "Musik off"; store.set("musik-" + C.id, v ? "on" : "off");
+  if (!C.musik) return v && toast("URL musik belum diisi pada data undangan");
+  v ? aud.play().catch(() => { on = false; sw.setAttribute("aria-checked", false); sw.textContent = "Musik off"; }) : aud.pause();
+};
+sw.onclick = () => musik(!on);
+$("#open").onclick = () => {
+  if (opened) return; opened = true;
+  $("#flash").classList.add("on");
+  setTimeout(() => { $("#cover").classList.add("out"); document.body.classList.remove("lock"); sw.style.display = "block"; }, 250);
+  if (store.get("musik-" + C.id) !== "off") musik(true);
+  setTimeout(() => $("#cover").style.display = "none", 1400);
+};
+
+/* Slider foto utama */
+{ const im = [...$(".hero .xf").children]; let i = 0; im[0].classList.add("on");
+  setInterval(() => { im[i].classList.remove("on"); i = (i + 1) % im.length; im[i].classList.add("on"); }, 4500); }
+
+/* Hitung mundur */
+const t0 = new Date(E0.mulai).getTime();
+const tick = () => {
+  const d = t0 - Date.now();
+  if (d <= 0) { $("#cd").innerHTML = "<div style='min-width:0;padding:.7rem 1.2rem'><b style='font-size:1.3rem'>Hari bahagia telah tiba</b></div>"; return clearInterval(iv); }
+  $("#d").textContent = Math.floor(d / 864e5); $("#h").textContent = Math.floor(d % 864e5 / 36e5);
+  $("#m").textContent = Math.floor(d % 36e5 / 6e4); $("#s").textContent = Math.floor(d % 6e4 / 1e3);
+};
+const iv = setInterval(tick, 1000); tick();
+
+/* Kalender (.ics) */
+document.querySelectorAll("[data-ics]").forEach(b => b.onclick = () => {
+  const e = C.acara[b.dataset.ics], f = s => s.replace(/[-:]/g, ""), x = s => s.replace(/,/g, "\\,");
+  const t = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Undangan Digital//ID", "BEGIN:VEVENT", `UID:${C.id}-${b.dataset.ics}@undangan`,
+    `DTSTAMP:${f(new Date().toISOString().slice(0, 19))}Z`, `DTSTART:${f(e.mulai)}`, `DTEND:${f(e.selesai)}`,
+    `SUMMARY:${x(e.judul + " " + A + " & " + B)}`, `LOCATION:${x(e.tempat)}`, "END:VEVENT", "END:VCALENDAR"].join("\r\n");
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([t], { type: "text/calendar" }));
+  a.download = `${C.id}-${e.judul.toLowerCase().replace(/\s/g, "-")}.ics`; a.click(); toast("Acara disimpan ke kalender");
+});
+
+/* Hadiah */
+$("#gbtn").onclick = e => { const o = $("#cards").classList.toggle("on"); e.target.setAttribute("aria-expanded", o); };
+$("#cards").onclick = e => { const b = e.target.closest("button"); if (b) salin(b.dataset.no.replace(/-/g, ""), `Nomor ${b.dataset.b} disalin`); };
+
+/* Lightbox */
+const lb = $("#lb"), lbi = $("img", lb);
+const show = i => { lbCur = (i + C.galeri.length) % C.galeri.length; lbi.src = C.galeri[lbCur].f; lb.classList.add("on"); };
+$(".p", lb).onclick = () => show(lbCur - 1); $(".n", lb).onclick = () => show(lbCur + 1);
+$(".x", lb).onclick = () => lb.classList.remove("on");
+lb.onclick = e => { if (e.target === lb) lb.classList.remove("on"); };
+lb.ontouchstart = e => lx = e.touches[0].clientX;
+lb.ontouchend = e => { const d = e.changedTouches[0].clientX - lx; if (Math.abs(d) > 50) show(lbCur + (d < 0 ? 1 : -1)); };
+document.addEventListener("keydown", e => {
+  if (!lb.classList.contains("on")) return;
+  if (e.key === "Escape") lb.classList.remove("on"); if (e.key === "ArrowLeft") show(lbCur - 1); if (e.key === "ArrowRight") show(lbCur + 1);
+});
+
+/* BARU: meja foto, polaroid bisa diseret, dibalik, dirapikan, dan diacak */
+const meja = $("#meja");
+meja.innerHTML = C.galeri.map((g, i) => `<div class="pol" data-i="${i}"><div class="in"><div class="fr"><img src="${g.f}" alt="${g.k}" loading="lazy" draggable="false"><div class="cap">${g.k}</div></div><div class="bk">${g.n}<button class="btn" data-big="${i}">Perbesar</button></div></div></div>`).join("");
+const pols = [...meja.children];
+const acak = () => {
+  const W = meja.clientWidth, H = meja.clientHeight;
+  pols.forEach(p => { p.classList.add("anim"); const w = p.offsetWidth || 180, h = w * 1.2;
+    p.style.left = Math.round(Math.random() * Math.max(0, W - w)) + "px"; p.style.top = Math.round(Math.random() * Math.max(0, H - h)) + "px"; p.style.rotate = (Math.random() * 24 - 12).toFixed(1) + "deg"; });
+};
+const rapi = () => {
+  const W = meja.clientWidth, w = pols[0].offsetWidth || 180, h = w * 1.2, gap = 14, kol = Math.max(1, Math.floor((W + gap) / (w + gap))), sisa = W - (kol * w + (kol - 1) * gap);
+  pols.forEach((p, i) => { p.classList.add("anim"); p.style.left = Math.round(sisa / 2 + (i % kol) * (w + gap)) + "px"; p.style.top = Math.round(14 + Math.floor(i / kol) * (h + gap)) + "px"; p.style.rotate = (i % 2 ? 1.5 : -1.5) + "deg"; });
+  meja.style.minHeight = Math.ceil(pols.length / kol) * (h + gap) + 30 + "px";
+};
+$("#acak").onclick = () => { meja.style.minHeight = ""; acak(); };
+$("#rapi").onclick = rapi;
+let seret = null;
+meja.addEventListener("pointerdown", e => {
+  const p = e.target.closest(".pol"); if (!p || e.target.closest("button")) return;
+  seret = { p, x: e.clientX, y: e.clientY, l: p.offsetLeft, t: p.offsetTop, gerak: false };
+  p.classList.remove("anim"); p.style.zIndex = ++zTop; if (p.setPointerCapture && e.pointerId !== undefined) { try { p.setPointerCapture(e.pointerId); } catch (x) {} }
+});
+meja.addEventListener("pointermove", e => {
+  if (!seret) return; const dx = e.clientX - seret.x, dy = e.clientY - seret.y;
+  if (!seret.gerak && Math.hypot(dx, dy) < 6) return; seret.gerak = true; seret.p.classList.add("drag");
+  seret.p.style.left = Math.min(meja.clientWidth - 40, Math.max(-20, seret.l + dx)) + "px"; seret.p.style.top = Math.min(meja.clientHeight - 40, Math.max(-20, seret.t + dy)) + "px";
+});
+const lepas = () => { if (!seret) return; seret.p.classList.remove("drag"); if (!seret.gerak) seret.p.classList.toggle("flip"); seret = null; };
+meja.addEventListener("pointerup", lepas); meja.addEventListener("pointercancel", () => { if (seret) { seret.p.classList.remove("drag"); seret = null; } });
+meja.addEventListener("click", e => { const b = e.target.closest("[data-big]"); if (b) show(+b.dataset.big); });
+acak();
+
+/* BARU: kartu ucapan, bisa diunduh sebagai gambar */
+const unduh = x => {
+  const c = document.createElement("canvas"); c.width = 600; c.height = 760; const g = c.getContext("2d");
+  g.fillStyle = "#fff"; g.fillRect(0, 0, 600, 760); g.fillStyle = WARNA[x.warna] || WARNA.kuning; g.fillRect(30, 30, 540, 600);
+  g.fillStyle = "#2a2118"; g.font = "22px 'Courier New',monospace"; g.fillText(`Untuk ${A} & ${B}`, 56, 80);
+  g.font = "700 30px Kalam,'Segoe Print',cursive"; let y = 140, baris = "";
+  x.pesan.split(" ").forEach(k => { const t = baris ? baris + " " + k : k; if (g.measureText(t).width > 490 && baris) { g.fillText(baris, 56, y); y += 42; baris = k; } else baris = t; });
+  if (baris) g.fillText(baris, 56, y);
+  g.font = "700 28px Kalam,'Segoe Print',cursive"; g.fillText(`${x.nama}`, 56, 600); g.font = "20px 'Courier New',monospace"; g.fillText(`${A} & ${B}  ${new Date(E0.mulai).toLocaleDateString("id-ID", { day: "numeric", month: "long", year: "numeric" })}`, 36, 700);
+  c.toBlob(b => { const a = document.createElement("a"); a.href = URL.createObjectURL(b); a.download = `kartu-ucapan-${x.nama.toLowerCase().replace(/\s+/g, "-")}.png`; a.click(); toast("Kartu ucapan diunduh"); });
+};
+const f = $("#f");
+const load = () => loadJ(KEY, []);
+const render = () => {
+  const d = load();
+  $("#list").innerHTML = d.length ? d.map((x, i) => `<article style="background:${WARNA[x.warna] || WARNA.kuning}"><b>${esc(x.nama)}</b><small>${esc(x.hadir)}, ${esc(x.jumlah)} orang</small>${esc(x.pesan)}<br><button class="btn" data-dl="${i}">Unduh kartu</button></article>`).join("") : '<p class="empty">Papan ini masih kosong. Tempel kartu pertama Anda.</p>';
+};
+$("#list").onclick = e => { const b = e.target.closest("[data-dl]"); if (b) unduh(load()[+b.dataset.dl]); };
+f.onsubmit = e => {
+  e.preventDefault();
+  const d = load(); d.unshift(Object.fromEntries(new FormData(f)));
+  store.set(KEY, JSON.stringify(d));
+  if (store.get(KEY) === null) return toast("Kartu tidak bisa disimpan di browser ini");
+  f.reset(); render(); toast("Kartu tertempel di papan. Anda bisa mengunduhnya.");
+};
+$("#wa").onclick = () => {
+  if (!f.reportValidity()) return;
+  const v = Object.fromEntries(new FormData(f));
+  const m = `Halo, saya ${v.nama}. Saya ${v.hadir.toLowerCase()} di pernikahan ${A} & ${B} (${v.jumlah} orang).\n\n${v.pesan}`;
+  window.open(`https://wa.me/${C.wa}?text=${encodeURIComponent(m)}`, "_blank", "noopener");
+};
+render();
+
+/* Muncul saat di-scroll */
+const io = new IntersectionObserver(es => es.forEach(x => { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } }), { threshold: .1 });
+document.querySelectorAll(".rv").forEach(el => io.observe(el));
+</script>
+</body>
+</html>
